@@ -1,0 +1,32 @@
+.question {
+    text-align: center;
+    // .question__container
+
+    &__container {}
+
+    // .question__text
+
+    &__text {
+        font-size: rem(32);
+        font-weight: 700;
+        color: #00252e;
+    }
+
+    // .question__button
+
+    &__button {
+        margin: 0 auto;
+        margin-top: 40px;
+        padding: 20px 60px;
+        width: max-content;
+        background-color: $secondColor;
+        border: none;
+        border-radius: 5rem;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        cursor: pointer;
+        border: 1px solid $secondColor;
+    }
+}

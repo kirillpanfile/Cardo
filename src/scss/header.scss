@@ -1,4 +1,42 @@
 //====================================================================================================
+.header {
+	height: rem(140);
+	// .header__container
+
+	&__container {
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	// .header__logo
+
+	&__logo {
+		@media (max-width:$mobile) {
+			img {
+				width: 80%;
+			}
+		}
+	}
+
+	// .header__button
+
+	&__button {
+		text-align: center;
+		font-weight: 600;
+		font-size: rem(18);
+		border: 2px solid $secondColor;
+		border-radius: 100px;
+		padding: 12px 28px;
+		color: $secondColor;
+
+		@media (max-width:$mobile) {
+			padding: 10px 16px;
+		}
+	}
+}
+
 
 //====================================================================================================
 

@@ -1,0 +1,60 @@
+//========================================================================================================================================================
+.hero {
+
+    // .hero__container
+
+    &__container {
+        text-align: center;
+    }
+
+    // .hero__container-logo
+
+    &__container-logo {
+        @include adaptiveValue("margin-top", 220, 20);
+        font-size: rem(48);
+        font-weight: 800;
+        color: $mainColor;
+
+        @media (max-width:$mobile) {
+            font-size: rem(40);
+        }
+    }
+
+    // .hero__container-descr
+
+    &__container-descr {
+        margin-top: 40px;
+        font-size: rem(18);
+        font-weight: 700;
+        line-height: 1.5rem;
+
+        @media (max-width:$mobile) {
+            font-size: rem(16);
+        }
+    }
+
+    // .hero__container-button
+
+    &__container-button {
+        margin-top: 40px;
+        padding: 20px 60px;
+        width: max-content;
+        background-color: $secondColor;
+        border: none;
+        border-radius: 5rem;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        cursor: pointer;
+        border: 1px solid $secondColor;
+
+    }
+
+    img {
+        margin-top: 120px;
+        width: 80%;
+    }
+}
+
+//========================================================================================================================================================

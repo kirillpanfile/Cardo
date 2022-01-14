@@ -1,3 +1,105 @@
 //====================================================================================================
+.footer {
+    background-color: $mainColor;
+    // .footer__container
+    color: #fff;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width:$mobile) {
+            display: block;
+        }
+
+        margin-bottom: 60px;
+    }
+
+    // .footer__descr
+
+    &__descr {
+        margin-top: 30px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        line-height: 1.2rem;
+
+    }
+}
+
+.cont-footer {
+
+    // .cont-footer__logo
+
+    &__logo {
+        @media (max-width:$mobile) {
+            margin-top: 40px;
+        }
+    }
+
+    // .cont-footer__phone
+
+    &__phone {
+        margin-top: 50px;
+    }
+
+    // .cont-footer__mail
+
+    &__mail {
+        margin-top: 10px;
+    }
+
+    // .cont-footer__social
+
+    &__social {
+        margin-top: 40px;
+        font-size: rem(32);
+    }
+}
+
+
+.news-footer {
+
+    // .news-footer__title
+
+    &__title {
+        @media (max-width:$mobile) {
+            margin-top: 40px;
+        }
+
+        font-size: rem(32);
+        font-weight: 700;
+    }
+
+    // .news-footer__form
+
+    &__form {
+        margin-top: 20px;
+    }
+}
+
+.news-form {
+    display: flex;
+    // .news-form__input
+
+    &__input {
+        padding: 14px;
+        @include adaptiveValue("width", 360, 200);
+        border-radius: 10px;
+    }
+
+    // .news-form__submit
+
+    &__submit {
+        flex: 1 1 auto;
+        margin-left: 50px;
+        background-color: $secondColor;
+        color: #fff;
+        border-radius: 10px;
+
+        @media (max-width:$mobile) {
+            margin-left: 10px;
+        }
+    }
+}
 
 //====================================================================================================
