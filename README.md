@@ -1,6 +1,6 @@
 # Huddle landing page with curved sections
-
 ![alt](./desktop-design.jpg)
+
 
 ## Welcome! 👋
 Thanks for checking out this WebPage.
